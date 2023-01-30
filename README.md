@@ -1,5 +1,18 @@
 # cncf-automation-and-configuration
 
+[Source](https://landscape.cncf.io/card-mode?category=automation-configuration)
+
+## Introduction
+
+- Speed up creation and configuration of compute resources e.g., VMs, networks, firewall rules, LBs, etc
+- Infrastructure should be provisioned dynamically and without human intervention
+- Reproduce environment setups with click of a button
+- Manual setup is error prone
+- Terraform reduce effort to scale servers and networks
+- Puppet, Chef and Ansible provision servers and configure them and their applications programatically
+
+## Tools Summary
+
 | Tool | Status | Wiki | Summary | Hands-On |
 |------|-------|------|---------|----------|
 |Cloud Custodian|Incubating|[link](https://github.com/cheuklau/cncf-automation-and-configuration/wiki/Cloud-Custodian)|YAML-based rules for AWS resources| Yes |
@@ -12,4 +25,4 @@ To-do:
 - Chef
 - devstream
 
-Stopped looking at Kiosk. Ignore paid services.
+Stopped looking at Kiosk. Ignore not open-source or tools with enterprise version.
